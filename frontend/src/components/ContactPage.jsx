@@ -16,7 +16,7 @@ function ContactPage() {
     if (!existingScript) {
       const script = document.createElement("script");
       script.src =
-        "https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI";
+        "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY";
       script.id = "googleMapsScript";
       script.async = true;
       script.defer = true;
